@@ -28,7 +28,7 @@ submit.onclick = function () {
 
 
 function changeColor(a){
-	document.body.style.backgroundColor = a;
+	this.style.backgroundColor = a;
 }
 
 pass.onclick = changeColor('red')
