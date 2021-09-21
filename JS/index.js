@@ -27,11 +27,11 @@ submit.onclick = function () {
 };
 
 
-function changeColor(a){
-	this.style.backgroundColor = a;
+function changeColor(a, b){
+	b.style.backgroundColor = a;
 }
 
-pass.onclick = changeColor('red')
+pass.onclick = changeColor('red', pass)
 
 
 pass.addEventListener("keyup", function (event) {
