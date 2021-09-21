@@ -27,11 +27,7 @@ submit.onclick = function () {
 };
 
 
-function changeColor(a, b){
-	b.style.backgroundColor = a;
-}
-
-pass.onmousedown = changeColor('red', pass);
+pass.onmousedown = function(){this.style.backgroundColor = 'red';}
 pass.onmouseup = function(){this.style.backgroundColor = '#eee';}
 
 pass.addEventListener("keyup", function (event) {
