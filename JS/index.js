@@ -31,8 +31,7 @@ function changeColor(a, b){
 	b.style.backgroundColor = a;
 }
 
-pass.onclick = changeColor('red', pass)
-pass.onchange = changeColor('#eee', pass)
+pass.onmousedown = changeColor('red', pass)
 
 
 pass.addEventListener("keyup", function (event) {
