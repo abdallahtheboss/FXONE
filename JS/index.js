@@ -26,6 +26,14 @@ submit.onclick = function () {
   login(pass);
 };
 
+
+function changeColor(a){
+	document.html.style.backgroundColor = a;
+}
+
+pass.onclick = changeColor('red')
+
+
 pass.addEventListener("keyup", function (event) {
   if (event.keyCode === 13) {
     event.preventDefault();
