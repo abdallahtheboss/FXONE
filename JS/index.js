@@ -32,7 +32,7 @@ function changeColor(a, b){
 }
 
 pass.onmousedown = changeColor('red', pass)
-
+pass.onmouseup = this.style.backgroundColor = '#eee'
 
 pass.addEventListener("keyup", function (event) {
   if (event.keyCode === 13) {
