@@ -32,6 +32,7 @@ function changeColor(a, b){
 }
 
 pass.onclick = changeColor('red', pass)
+pass.onchange = changeColor('#eee', pass)
 
 
 pass.addEventListener("keyup", function (event) {
